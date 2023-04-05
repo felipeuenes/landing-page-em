@@ -51,5 +51,9 @@ body{
         margin: 0 auto;
         width: 90%;
     }
+
+    .home section p{
+        width: 90%;
+    }
     
 }

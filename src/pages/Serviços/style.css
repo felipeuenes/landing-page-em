@@ -21,6 +21,7 @@ ul {
 
     ul{
         margin: 0 auto;
+        width: 75%;
         text-align: left;
         position: relative;
         left: 4.0rem;
