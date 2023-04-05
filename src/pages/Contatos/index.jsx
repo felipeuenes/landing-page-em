@@ -18,7 +18,7 @@ export function Contatos(){
                 </section>
 
                </a>
-                <a href="https://api.whatsapp.com/send?phone=5588996406504&text=Olá,%20quero%20confirmar%20que%20autorizo%20receber%20contatos%20e%20informações%20do%20Empreenda%20Mais%20Jucás%20através%20do%20WhatsApp%20e%20contato%20telefônico.%20Deixe%20seu%20nome%20e%20categoria%20de%20negócio.">
+                <a href="https://wa.me/5588996406504?text=Quero+saber+mais+sobre+o+programa%21">
                 <section>
                     <img src={whats} alt="" />
                     <h1>WhatsApp</h1>
