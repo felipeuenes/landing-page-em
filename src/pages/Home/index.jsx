@@ -9,7 +9,7 @@ export function Home(){
 
         <div className='home'>
                 <section>
-                    <h1>Bem vindo!</h1>
+                    <h1>Bem-vindo!</h1>
                     <h3>Conheça o Empreenda Mais</h3>
                                    
                 </section>
