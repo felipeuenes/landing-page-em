@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
 
-    animation-name: animacao;
+    animation-name: animacaoServicos;
     animation-duration: 1s;
 }
 
@@ -25,7 +25,7 @@ ul {
     
   }
 
-  @keyframes animacao {
+  @keyframes animacaoServicos {
     from{
         transform: translateY(-4.0rem);
         opacity: 0;
