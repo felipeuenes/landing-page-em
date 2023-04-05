@@ -1,8 +1,15 @@
 .servicos{
     margin-top: 50.0rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.servicos h1{
+    color: white;
+    margin-bottom: 3.2rem;
+    font-size: 3.2rem;
 }
 
 .servicos ul li{
@@ -18,7 +25,9 @@ ul {
 
   @media screen and (max-width: 700px) {
     
-
+    .servicos{
+        margin-top: 10.0rem;
+    }
     ul{
         margin: 0 auto;
         width: 75%;
