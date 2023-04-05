@@ -4,6 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    animation-name: animacao;
+    animation-duration: 1s;
 }
 
 .servicos h1{
@@ -21,6 +24,18 @@ ul {
     list-style-image: url('../../images/icon2.png');
     
   }
+
+  @keyframes animacao {
+    from{
+        transform: translateY(-4.0rem);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 
   @media screen and (max-width: 700px) {
