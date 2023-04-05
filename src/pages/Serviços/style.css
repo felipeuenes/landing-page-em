@@ -27,11 +27,11 @@ ul {
 
   @keyframes animacaoServicos {
     from{
-        transform: translateY(-4.0rem);
+        transform: translateX(-4.0rem);
         opacity: 0;
     }
     to{
-        transform: translateY(0);
+        transform: translateX(0);
         opacity: 1;
     }
 }
