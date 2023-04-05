@@ -68,10 +68,15 @@ body{
     
     body{
         background-image: none;
+
         
     }
    
     .home section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 0 auto;
         width: 90%;
     }
@@ -87,6 +92,7 @@ body{
     .home section p{
         width: 90%;
         font-size: 1.6rem;
+        text-align: justify;
     }
     
 }
