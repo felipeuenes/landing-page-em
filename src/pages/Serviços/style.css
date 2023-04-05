@@ -14,3 +14,18 @@ ul {
     list-style-image: url('../../images/icon2.png');
     
   }
+
+
+  @media screen and (max-width: 700px) {
+    
+
+    .servicos{
+        margin-top: 10.0rem;
+    }
+
+    .servicos ul li{
+        font-size: 1.6rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+  }
