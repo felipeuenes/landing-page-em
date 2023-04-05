@@ -1,7 +1,8 @@
 
 import { Footer } from '../components/Footer'
+import { Video } from '../components/Video'
 import { Contatos } from '../pages/Contatos'
-import { Home } from '../pages/Home'
+import { Home } from '../pages/home'
 import { Local } from '../pages/Local'
 import { Servicos } from '../pages/Serviços'
 import { Slider } from '../pages/Slides'
@@ -14,6 +15,7 @@ export function App() {
     <div className="App">
         <Home/>
         <Servicos/>
+        <Video/>
         <Slider/>
         <Local/>
         <Contatos/>

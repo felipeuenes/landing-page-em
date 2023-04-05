@@ -1,0 +1,18 @@
+
+.video{
+    margin-top: 15.0rem;
+    margin-bottom: 10.0rem;
+    height: 40.0rem;
+    width: 90.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+iframe{
+    width: 80%;
+    height: 100%;
+
+}
