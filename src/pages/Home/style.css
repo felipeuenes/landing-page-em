@@ -1,6 +1,4 @@
-#fundo{
-    width: 25.0rem;
-}
+
 
 
 body{
@@ -9,12 +7,14 @@ body{
     background-repeat: no-repeat;
 }
 
-
+.home section{
+    margin-left: 15.0rem;
+}
 
 .home section h1{
     color: yellow;
     margin-top: 12%;
-    margin-left: 15.0rem;
+    
     z-index: 1;
     font-size: 6.2rem;
     margin-bottom: 0;
@@ -24,7 +24,7 @@ body{
 .home section h3{
     color: white;
     margin-top: 0;
-    margin-left: 15.0rem;
+    
     z-index: 1;
     font-size: 3.0rem;
     font-family: Arial, Helvetica, sans-serif, italic;
@@ -33,9 +33,23 @@ body{
 .home section p{
     color: white;
     margin-top: 4.0rem;
-    margin-left: 15.0rem;
+    
     z-index: 1;
     font-size: 2.0rem;
     width: 50.0rem;
     font-family: Arial, Helvetica, sans-serif, italic;
+}
+
+@media screen and (max-width: 700px){
+    
+    body{
+        background-image: none;
+        
+    }
+   
+    .home section{
+        margin-left: 8.0rem;
+        width: 90%;
+    }
+    
 }

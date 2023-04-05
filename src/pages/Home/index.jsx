@@ -1,5 +1,5 @@
 import './style.css'
-import fundo from '../../images/fundo.jpg'
+
 
 
 export function Home(){
