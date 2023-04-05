@@ -1,0 +1,24 @@
+.contatos{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-top: 9.0rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: -12.0rem;
+}
+
+.contatos section img{
+    width: 3.0rem;
+    margin: 0 auto;
+}
+
+
+.contatos section{   
+    display: flex;
+    flex-direction: column;
+    margin-left: 10.0rem;
+}
+
+
+

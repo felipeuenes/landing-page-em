@@ -1,0 +1,29 @@
+.local{
+
+    margin-top: 20.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.local h1{
+    color: white;
+    font-size: 5.2rem;
+    text-align: center;
+    margin-bottom: 1.6rem;
+
+}
+
+.local h2{
+    color: white;
+    text-align: center;
+    margin-top: 1.6rem;
+}
+
+
+iframe{
+    border-radius: 1rem;
+   
+}
