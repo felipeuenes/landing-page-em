@@ -5,7 +5,9 @@ body{
     background-image: url('../../images/fundo.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+
 }
+
 
 .home section{
     margin-left: 15.0rem;
@@ -19,6 +21,9 @@ body{
     font-size: 6.2rem;
     margin-bottom: 0;
     padding: 0;
+
+    animation-name: animacao;
+    animation-duration: 1s;
 }
 
 .home section h3{
@@ -28,6 +33,9 @@ body{
     z-index: 1;
     font-size: 3.0rem;
     font-family: Arial, Helvetica, sans-serif, italic;
+
+    animation-name: animacao;
+    animation-duration: 1s;
 }
 
 .home section p{
@@ -38,7 +46,23 @@ body{
     font-size: 2.0rem;
     width: 50.0rem;
     font-family: Arial, Helvetica, sans-serif, italic;
+    animation-name: animacao;
+    animation-duration: 1s;
 }
+
+@keyframes animacao {
+    from{
+        transform: translateX(-4.0rem);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
 
 @media screen and (max-width: 700px){
     
