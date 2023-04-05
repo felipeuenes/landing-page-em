@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 7.0rem;
 
     animation-name: animacaoServicos;
     animation-duration: 1s;
