@@ -2,7 +2,7 @@
 import { Footer } from '../components/Footer'
 import { Video } from '../components/Video'
 import { Contatos } from '../pages/Contatos'
-import { Home } from '../pages/home'
+import { Home } from '../pages/Home'
 import { Local } from '../pages/Local'
 import { Servicos } from '../pages/Serviços'
 import { Slider } from '../pages/Slides'
